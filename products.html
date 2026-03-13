@@ -2,74 +2,104 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Products &amp; Services - Generation Insurance</title>
-    <link rel="stylesheet" href="styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products &amp; Services | Generation Insurance</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a817f1b6d0.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <img src="GI Logo 2.jpg" class="logo" alt="Generation Insurance logo">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="products.html" class="active">Products &amp; Services</a></li>
-                <li><a href="resources.html">Resources</a></li>
-                <li><a href="tel:7273925363">(727) 392-5363</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <img src="GI%20Logo%202.jpg" alt="Generation Insurance logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products &amp; Services</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <section class="hero small-hero">
-        <h1>Products &amp; Services</h1>
-        <p>Customized coverage to meet your immediate and future needs</p>
-    </section>
-    <section class="products-grid">
-        <div class="product-card">
-            <img src="https://images.pexels.com/photos/128867/pexels-photo-128867.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Homeowners Insurance">
-            <h3>Homeowners Insurance</h3>
-            <p>Protect your home and possessions with comprehensive coverage for your property.</p>
+
+    <main>
+        <!-- Sub Hero Section -->
+        <section class="sub-hero">
+            <div class="hero-content">
+                <h1>Our Products &amp; Services</h1>
+                <p>Tailored coverage for every stage of life</p>
+            </div>
+        </section>
+
+        <!-- Products Grid -->
+        <section class="products-section">
+            <div class="container">
+                <h2>Explore Our Coverage Options</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <i class="fas fa-home"></i>
+                        <h3>Homeowners Insurance</h3>
+                        <p>Protects your home and personal belongings against damage and loss.</p>
+                    </div>
+                    <div class="product-card">
+                        <i class="fas fa-fire"></i>
+                        <h3>Dwelling Fire</h3>
+                        <p>Coverage for rental properties and structures not occupied by the owner.</p>
+                    </div>
+                    <div class="product-card">
+                        <i class="fas fa-building"></i>
+                        <h3>Condo &amp; Townhome</h3>
+                        <p>Insures personal possessions and built‑in units with liability coverage.</p>
+                    </div>
+                    <div class="product-card">
+                        <i class="fas fa-users"></i>
+                        <h3>Renters Insurance</h3>
+                        <p>Essential protection for tenants against loss or damage to belongings.</p>
+                    </div>
+                    <div class="product-card">
+                        <i class="fas fa-car"></i>
+                        <h3>Auto Insurance</h3>
+                        <p>From liability to full coverage, we've got you covered on the road.</p>
+                    </div>
+                    <div class="product-card">
+                        <i class="fas fa-motorcycle"></i>
+                        <h3>Motorcycle Insurance</h3>
+                        <p>Specialized policies for all bikes, with accessory and roadside options.</p>
+                    </div>
+                    <div class="product-card">
+                        <i class="fas fa-ship"></i>
+                        <h3>Boat Insurance</h3>
+                        <p>Coverage for watercraft of all sizes, including towing and replacement.</p>
+                    </div>
+                    <div class="product-card">
+                        <i class="fas fa-water"></i>
+                        <h3>Flood Insurance</h3>
+                        <p>Stay protected from flood damage with specialized policies.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <h2>Need help choosing the right coverage?</h2>
+                <p>Our advisors are ready to help you design a personalized insurance program.</p>
+                <a href="#contact" class="btn">Talk to an Agent</a>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <h2>Get in touch</h2>
+            <p><strong>Phone:</strong> (727) 392‑5363</p>
+            <p><strong>Email:</strong> info@generationinsurance.net</p>
+            <p>© 2026 Generation Insurance</p>
         </div>
-        <div class="product-card">
-            <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Condo/Townhome">
-            <h3>Condo &amp; Townhome</h3>
-            <p>Coverage for condos and townhomes including personal property and liability.</p>
-        </div>
-        <div class="product-card">
-            <img src="https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Renters Insurance">
-            <h3>Renters Insurance</h3>
-            <p>Affordable protection for tenants against loss or damage to personal belongings.</p>
-        </div>
-        <div class="product-card">
-            <img src="https://images.pexels.com/photos/1149137/pexels-photo-1149137.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Auto Insurance">
-            <h3>Auto Insurance</h3>
-            <p>Insurance for your car tailored to your needs and budget.</p>
-        </div>
-        <div class="product-card">
-            <img src="https://images.pexels.com/photos/1001897/pexels-photo-1001897.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Motorcycle Insurance">
-            <h3>Motorcycle Insurance</h3>
-            <p>Specialized coverage for motorcycles, safety apparel and accessories.</p>
-        </div>
-        <div class="product-card">
-            <img src="https://images.pexels.com/photos/296210/pexels-photo-296210.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Boat Insurance">
-            <h3>Boat Insurance</h3>
-            <p>Coverage for boats and watercraft, including liability and total loss replacement.</p>
-        </div>
-        <div class="product-card">
-            <img src="https://images.pexels.com/photos/751985/pexels-photo-751985.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Flood Insurance">
-            <h3>Flood Insurance</h3>
-            <p>Protect your home from rising water and flood damage with specialized coverage.</p>
-        </div>
-        <div class="product-card">
-            <img src="https://images.pexels.com/photos/3183197/pexels-photo-3183197.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Business Insurance">
-            <h3>Business Insurance</h3>
-            <p>Comprehensive policies to safeguard your business assets, property and employees.</p>
-        </div>
-    </section>
-    <section class="cta-section">
-        <a href="tel:7273925363" class="btn">Call us for a free consultation</a>
-    </section>
-    <footer>
-        <p>© Generation Insurance. All rights reserved.</p>
-        <p>3900 131st Ave N, Suite 450, Clearwater, FL 33762</p>
     </footer>
 </body>
 </html>
