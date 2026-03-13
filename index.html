@@ -2,121 +2,95 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Generation Insurance</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Custom Styles -->
+    <title>Generation Insurance</title>
+    <!-- Import CSS and fonts -->
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/a817f1b6d0.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- Site Header with logo and navigation -->
-    <header class="site-header">
+    <header>
         <div class="container">
+            <!-- Logo -->
             <img src="GI%20Logo%202.jpg" alt="Generation Insurance logo" class="logo">
+            <!-- Navigation -->
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="products.html">Products &amp; Services</a></li>
                     <li><a href="resources.html">Resources</a></li>
-                    <li><a href="tel:7273925363" class="phone">(727) 392‑5363</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main>
-        <!-- Hero section with background image and call to action -->
-        <section class="hero" style="background-image: url('https://images.pexels.com/photos/5849574/pexels-photo-5849574.jpeg?auto=compress&cs=tinysrgb&w=1920');">
-            <div class="hero-overlay"></div>
+        <!-- Hero Section -->
+        <section class="hero">
             <div class="hero-content">
-                <h1>Your Trusted Insurance Partner</h1>
-                <p>Protecting your home, auto &amp; business with tailored coverage</p>
-                <a href="products.html" class="cta-button">Explore Coverage</a>
+                <h1>Protecting Your Future</h1>
+                <p>Your trusted partner for comprehensive insurance solutions</p>
+                <a href="#contact" class="btn">Get a Free Consultation</a>
             </div>
         </section>
 
-        <!-- Infographic cards highlighting key insurance categories -->
-        <section class="info-icons">
-            <h2>Our Expertise</h2>
-            <div class="cards">
-                <div class="card">
-                    <!-- Add an illustrative photo from Pexels to make the card more inviting -->
-                    <img class="card-image" src="https://images.pexels.com/photos/3184439/pexels-photo-3184439.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=300&w=400" alt="Happy family in front of house">
-                    <i class="fas fa-home"></i>
-                    <h3>Home Insurance</h3>
-                    <p>Comprehensive homeowners policies to protect your most valuable asset.</p>
-                </div>
-                <div class="card">
-                    <img class="card-image" src="https://images.pexels.com/photos/210241/pexels-photo-210241.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=300&w=400" alt="Car driving on road">
-                    <i class="fas fa-car"></i>
-                    <h3>Auto Insurance</h3>
-                    <p>Affordable protection for your car, motorcycle or RV.</p>
-                </div>
-                <div class="card">
-                    <img class="card-image" src="https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=300&w=400" alt="Business handshake">
-                    <i class="fas fa-briefcase"></i>
-                    <h3>Business Insurance</h3>
-                    <p>Customized coverage to keep your business running smoothly.</p>
-                </div>
-                <div class="card">
-                    <img class="card-image" src="https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=300&w=400" alt="Flooded river">
-                    <i class="fas fa-water"></i>
-                    <h3>Flood Insurance</h3>
-                    <p>Essential protection against unexpected flood damage.</p>
+        <!-- Features Section -->
+        <section class="features">
+            <div class="container">
+                <h2>Our Solutions</h2>
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <i class="fas fa-home"></i>
+                        <h3>Home Insurance</h3>
+                        <p>Comprehensive protection for your house and belongings.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-car"></i>
+                        <h3>Auto Insurance</h3>
+                        <p>Customized coverage to keep you on the road safely.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-building"></i>
+                        <h3>Business Insurance</h3>
+                        <p>Safeguard your business assets and operations.</p>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fas fa-water"></i>
+                        <h3>Flood Insurance</h3>
+                        <p>Stay prepared with specialized flood coverage.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Reasons to choose Generation Insurance -->
+        <!-- Why Choose Us Section -->
         <section class="why-us">
-            <h2>Why Choose Generation Insurance?</h2>
-            <ul>
-                <li><i class="fas fa-check-circle"></i> Free, no‑hassle consultations</li>
-                <li><i class="fas fa-check-circle"></i> Friendly and knowledgeable professionals</li>
-                <li><i class="fas fa-check-circle"></i> Honest advice based on experience</li>
-                <li><i class="fas fa-check-circle"></i> Products tailored to your needs</li>
-                <li><i class="fas fa-check-circle"></i> Commitment to exceed expectations</li>
-            </ul>
-        </section>
-
-        <!-- Full list of offerings in two columns -->
-        <section class="offerings">
-            <h2>Our Full Range of Products</h2>
-            <div class="columns">
+            <div class="container">
+                <h2>Why Choose Us?</h2>
                 <ul>
-                    <li>Auto</li>
-                    <li>Motorcycle</li>
-                    <li>RV</li>
-                    <li>Boat</li>
-                    <li>Homeowners</li>
-                    <li>Dwelling Fire</li>
-                    <li>Renters</li>
-                    <li>Flood</li>
-                    <li>Builders Risk</li>
-                </ul>
-                <ul>
-                    <li>Florida Business Liability</li>
-                    <li>Business Owners</li>
-                    <li>Commercial Auto</li>
-                    <li>Business Property</li>
-                    <li>Condo Association</li>
-                    <li>Condo/Townhome Unit</li>
-                    <li>Umbrella</li>
-                    <li>Life</li>
-                    <li>Health &amp; Group Health</li>
-                    <li>Workers Compensation</li>
+                    <li><i class="fas fa-check-circle"></i> Friendly, knowledgeable professionals</li>
+                    <li><i class="fas fa-check-circle"></i> Honest advice tailored to you</li>
+                    <li><i class="fas fa-check-circle"></i> Coverage for all your needs</li>
+                    <li><i class="fas fa-check-circle"></i> Free, no‑hassle consultations</li>
                 </ul>
             </div>
         </section>
     </main>
 
-    <!-- Site footer -->
-    <footer>
-        <p>10575 68th Ave Suite C1 Seminole, FL 33772 &middot; <a href="tel:7273925363">(727) 392‑5363</a></p>
+    <!-- Footer / Contact Section -->
+    <footer id="contact">
+        <div class="container">
+            <h2>Ready to secure your future?</h2>
+            <p>Contact us today for a free consultation.</p>
+            <p><strong>Phone:</strong> (727) 392‑5363</p>
+            <p><strong>Email:</strong> info@generationinsurance.net</p>
+            <p>© 2026 Generation Insurance</p>
+        </div>
     </footer>
 </body>
 </html>
