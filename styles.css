@@ -129,14 +129,31 @@ header nav a:hover {
 }
 
 /* Sub-hero for internal pages */
+/* Use the same background image and overlay as the main hero to create a unified look across pages */
 .sub-hero {
-    background-color: var(--primary-color);
+    background-image: url('hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
     color: #fff;
-    padding: 3.5rem 0;
+    padding: 5rem 0;
     text-align: center;
 }
 
+/* Add an overlay on top of the background image to improve text readability */
+.sub-hero::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(39, 78, 19, 0.5);
+}
+
 .sub-hero .hero-content {
+    position: relative;
+    z-index: 1;
     max-width: 800px;
     margin: 0 auto;
 }
